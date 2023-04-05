@@ -1,0 +1,30 @@
+.newTask {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: -2.5%;
+}
+
+.taskInput {
+    background: var(--gray-500);
+    color: var(--gray-100);
+    width: 39.875rem;
+    height: 3.375rem;
+    box-sizing: border-box;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+}
+
+.newTask button {
+    background: var(--dark-blue);
+    width: 5.625rem;
+    height: 3.25rem;
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: 0;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.1s;
+}
