@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: -25px;
+    margin: auto;
+    margin-top: -25px; 
+    width: 46rem;
+    
 }
 
 .taskInput {
@@ -13,10 +16,7 @@
     box-sizing: border-box;
     border: 1px solid #0D0D0D;
     border-radius: 8px;
-}
-
-.taskInput::placeholder{
-    padding-right: 2rem;
+    padding: 1rem;
 }
 
 

@@ -1,0 +1,49 @@
+.taskInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    font-weight: 700;
+
+    width: 46rem;
+    margin: 0 auto;
+}
+
+.leftInfoText {
+    color: var(--blue);
+    line-height: 17px;
+}
+
+.leftInfoCounter {
+    background: var(--gray-400);
+    padding: 0.4rem;
+    border-radius: 20px;
+}
+
+.rightInfoText {
+    color: var(--purple);
+    line-height: 17px;
+
+}
+
+.rightInfoCounter {
+    background: var(--gray-400);
+    padding: 0.3rem;
+    border-radius: 20px;
+}
+
+
+
+.taskBoxGlobal {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+    margin-top: 2rem;
+    padding: 0.5rem;
+   
+    width: 46rem;
+    
+
+}
