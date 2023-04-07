@@ -39,11 +39,28 @@
     margin: 0 auto;
     border-top: 1px solid var(--gray-400);
     border-radius: 8px;
+    flex-direction: column;
 
     margin-top: 2rem;
     padding: 0.5rem;
-   
-    width: 46rem;
-    
 
+    width: 46rem;
+
+
+}
+
+.taskBoxGlobal p {
+    color: var(--gray-300);
+    text-align: center;
+}
+
+.taskBoxGlobal > p:first-of-type  {
+    font-weight: 700;
+}
+
+.taskBoxGlobal img {
+    width: 3.5rem;
+    height: 3.5rem;
+    align-self: center;
+    margin: 2rem;
 }
