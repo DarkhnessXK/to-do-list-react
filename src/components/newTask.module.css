@@ -3,9 +3,9 @@
     justify-content: center;
     gap: 0.5rem;
     margin: auto;
-    margin-top: -25px; 
+    margin-top: -25px;
     width: 46rem;
-    
+
 }
 
 .taskInput {
@@ -30,6 +30,11 @@
 
     font-weight: bold;
     cursor: pointer;
+
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
 
     transition: background-color 0.1s;
 }
